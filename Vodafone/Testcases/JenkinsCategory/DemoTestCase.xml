@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SeleniumXTestcase>
+    <DataSetRepo name="Data1" path="Workspace/Vodafone/DataSets/SeeTestDataSet/Data1.xml"/>
+    <dynamicDataKeyList>AppName</dynamicDataKeyList>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="For SeeTest Aut omation Client/Functional. " errorMessage="" name="SeeTestReserveDevice" type="1">
+            <InputDataList label="DeviceName(with adb:/ios_app:/wp: prefix)" type="1">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="" label="OS" type="1" value="">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="Info-8_ClientID_samsung_N950F_DE" label="Name(device name)" type="1" value="Info-8_ClientID_samsung_N950F_DE">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="JenkinsTest" label="Test Name" type="1" value="JenkinsTest">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="30" label="Reservation Time in Minuts" type="1" value="30">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="false" label="Release Client" type="1" value="false">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="" label="Serialnumber" type="1" value="">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList label="Model" type="1">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList label="Category" type="1">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList label="Version" type="1">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList label="Versionnumber" type="1">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList label="Manufacturer" type="1">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList label="Deviceadded" type="1">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList label="Remote" type="1">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList label="Location" type="1">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList label="HostIP" type="1">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.seetest.SeeTestReserveDevice</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="true" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Executes the chosen action on the device.Used to simulate physical actions on the device" errorMessage="" name="SeeTestDeviceAction" type="1">
+            <InputDataList key="Home" label="Action" type="1" value="Home">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.seetest.SeeTestDeviceAction</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Executes the chosen action on the device.Used to simulate physical actions on the device" errorMessage="" name="SeeTestDeviceAction" type="1">
+            <InputDataList key="Unlock" label="Action" type="1" value="Unlock">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.seetest.SeeTestDeviceAction</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="true" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Launch activity (application) or navigate to given URL during runtime" errorMessage="Not able to bring app in front." name="SeeTestLaunchAppOrURL" type="1">
+            <InputDataList key="com.experitest.ExperiBank.LoginActivity" label="AppActivity/URL" type="1" value="com.experitest.ExperiBank.LoginActivity">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="true" label="Instrumented(true/false)" type="1" value="true">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="true" label="StropIfRunning(true/false)" type="1" value="true">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.seetest.SeeTestLaunchAppOrURL</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Get the application name" errorMessage="" name="SeeTestGetApplicationName" type="1">
+            <outputDataList key="AppName" label="Application Name" type="4" value="com.android.launcher3">
+                <notMandatory>false</notMandatory>
+            </outputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.seetest.SeeTestGetApplicationName</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Send text to an elementSend text to an element" errorMessage="Not able to click." name="SeeTestElementSendText" type="1">
+            <InputDataList key="Username" label="Input Data" type="2" value="company">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="Native" label="Zone(Native/Web/Default)" type="1" value="Native">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="0" label="Index" type="1" value="0">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputWebObjectList label="Editable Field" type="1" urlName="SeeTest" urlString="seetest" webElementName="UserName" webElementType="a"/>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.seetest.SeeTestElementSendText</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="true" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Count the number of times an element or text is found" errorMessage="There was an error in getting count" name="SeeTestGetElementCount" type="1">
+            <InputDataList key="Native" label="Zone(Native/Web/Default)" type="1" value="Native">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputWebObjectList label="Element" type="1" urlName="SeeTest" urlString="seetest" webElementName="UserName" webElementType="a"/>
+            <outputDataList label="Element Count" type="1">
+                <notMandatory>false</notMandatory>
+            </outputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.seetest.SeeTestGetElementCount</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Send text to an elementSend text to an element" errorMessage="there was an error providing input in text box" name="SeeTestElementSendText" type="1">
+            <InputDataList key="Password" label="Input Data" type="2" value="company">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="Native" label="Zone(Native/Web/Default)" type="1" value="Native">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="0" label="Index" type="1" value="0">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputWebObjectList label="Editable Field" type="1" urlName="SeeTest" urlString="seetest" webElementName="Password" webElementType="a"/>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.seetest.SeeTestElementSendText</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Click on the Web element" errorMessage="" name="SeeTestClick" type="1">
+            <InputDataList key="0" label="Index" type="1" value="0">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="Native" label="Zone(Native/Web/Default)" type="1" value="Native">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="1" label="Click Count" type="1" value="1">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputWebObjectList label="Element" type="1" urlName="SeeTest" urlString="seetest" webElementName="LoginButton" webElementType="a"/>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.seetest.SeeTestClick</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Sets sleep until element is identified" errorMessage="There was an error in performing the keyword" name="SeeTestWaitForElement" type="1">
+            <InputDataList key="0" label="Index" type="1" value="0">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="Native" label="Zone(Native/Web/Default)" type="1" value="Native">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="30000" label="TimeOut" type="1" value="30000">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputWebObjectList label="Element" type="1" urlName="SeeTest" urlString="seetest" webElementName="LogoutButton" webElementType="a"/>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.seetest.SeeTestWaitForElement</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Generates a report of the tests which have been running by the client." errorMessage="" name="SeeTestGenerateReport" type="1">
+            <InputDataList key="false" label="Release Client" type="1" value="false">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.seetest.SeeTestGenerateReport</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <testCaseType>SIMPLE_TYPE</testCaseType>
+    <testcaseCreatedBy>shalini</testcaseCreatedBy>
+    <WebObjectRepo name="web1" path="Workspace/Vodafone/WebObjects/SeeTesteWebObject/web1.xml"/>
+</SeleniumXTestcase>
