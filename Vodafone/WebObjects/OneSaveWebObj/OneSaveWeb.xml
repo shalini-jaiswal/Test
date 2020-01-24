@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WebElements>
+    <record>false</record>
+    <WebObjectCreatedBy>shalini</WebObjectCreatedBy>
+    <WebURL name="Google" type="Web Url" url="https://www.google.com/?gws_rd=ssl">
+        <WebElement seleniumXName="SearchBox" seleniumXType="input">
+            <absoluteXPath>/html[1]/body[1]/div[1]/div[3]/form[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]</absoluteXPath>
+            <className>gLFyf gsfi</className>
+            <css></css>
+            <description></description>
+            <id></id>
+            <iframe></iframe>
+            <imagePath>&gt;&gt;</imagePath>
+            <javascriptText></javascriptText>
+            <linkText></linkText>
+            <name>q</name>
+            <ngInfo></ngInfo>
+            <partialLinkText></partialLinkText>
+            <relativeXPath>//input[@title='Search']</relativeXPath>
+            <screenName></screenName>
+            <tagName>input</tagName>
+            <used>true</used>
+        </WebElement>
+    </WebURL>
+</WebElements>
