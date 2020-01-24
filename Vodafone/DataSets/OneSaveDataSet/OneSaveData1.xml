@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataSets>
+    <DataSet encrypted="false" key="Url" type="String">
+        <description></description>
+        <used>true</used>
+        <Value>https://www.google.com/</Value>
+    </DataSet>
+    <DataSet encrypted="false" key="SearchText" type="String">
+        <description></description>
+        <used>true</used>
+        <Value>iphone</Value>
+    </DataSet>
+    <DataSet encrypted="false" key="test" type="String">
+        <description></description>
+        <used>true</used>
+        <Value></Value>
+    </DataSet>
+    <DataSet encrypted="false" key="" type="String">
+        <description></description>
+        <used>true</used>
+        <Value></Value>
+    </DataSet>
+    <path>Workspace/Vodafone/DataSets/OneSaveDataSet/OneSaveData1.xml</path>
+    <valueHeaderList>Value_1</valueHeaderList>
+</DataSets>
