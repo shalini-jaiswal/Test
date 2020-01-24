@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SeleniumXTestcase>
+    <DataSetRepo name="OneSaveData1" path="Workspace/Vodafone/DataSets/OneSaveDataSet/OneSaveData1.xml"/>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Open the URL" errorMessage="" name="OPEN URL" type="1">
+            <InputDataList key="Url" label="URL" type="2">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.OpenURL</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Type in the Web element" errorMessage="" name="Type" type="1">
+            <InputDataList key="SearchText" label="Input Data" type="2">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputWebObjectList label="Editable Field" type="1" urlName="Google" urlString="https://www.google.com/?gws_rd=ssl" webElementName="SearchBox" webElementType="input"/>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.InputText</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Submit(Enter) on a web element." errorMessage="There was an error simulating the submit action" name="Submit" type="1">
+            <InputWebObjectList label="Submit Button" type="1" urlName="Google" urlString="https://www.google.com/?gws_rd=ssl" webElementName="SearchBox" webElementType="input"/>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.Submit</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Pause or wait for given period of time(in ms) on current screen." errorMessage="" name="Wait" type="1">
+            <InputDataList key="2000" label="Wait Period in mili second" type="1" value="2000">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.Wait</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <testCaseType>SIMPLE_TYPE</testCaseType>
+    <testcaseCreatedBy>sh</testcaseCreatedBy>
+    <WebObjectRepo name="OneSaveWeb" path="Workspace/Vodafone/WebObjects/OneSaveWebObj/OneSaveWeb.xml"/>
+</SeleniumXTestcase>
