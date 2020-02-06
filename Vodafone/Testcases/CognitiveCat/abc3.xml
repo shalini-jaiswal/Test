@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SeleniumXTestcase>
+    <DataSetRepo name=" data1" path="Workspace/Vodafone/DataSets/CognotiveDataSet/data1.xml"/>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="1">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="open url https://www.google.com" errorMessage="Unable to Open the URL" name="OPEN URL" type="1">
+            <InputDataList key="https://www.google.com" label="URL" type="1" value="https://www.google.com">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.OpenURL</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="1">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="type usernanme" errorMessage="there was an error providing input in text box" name="Type" type="1">
+            <InputDataList label="Input Data" type="1">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputWebObjectList label="Editable Field" type="1"/>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.InputText</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="1">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="type chocholate in searchbox" errorMessage="there was an error providing input in text box" name="Type" type="1">
+            <InputDataList key="searchtext" label="Input Data" type="2" value="iphone">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputWebObjectList label="Editable Field" type="1" urlName="Google" urlString="https://www.google.com/?safe=active&amp;ssui=on" webElementName="SearchBox" webElementType="input"/>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.InputText</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="1">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="click on search button" errorMessage="Unable to Click the web element" name="Click" type="1">
+            <InputWebObjectList label="Element to Click" type="1" urlName="Google" urlString="https://www.google.com/?safe=active&amp;ssui=on" webElementName="SearchButton" webElementType="input"/>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.Click</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <testCaseType>SIMPLE_TYPE</testCaseType>
+    <testcaseCreatedBy>shalini</testcaseCreatedBy>
+    <WebObjectRepo name=" Web1" path="Workspace/Vodafone/WebObjects/CognotiveWeb/Web1.xml"/>
+</SeleniumXTestcase>
