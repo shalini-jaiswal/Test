@@ -1,1 +1,41 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SeleniumXTestcase>
+    <dynamicDataKeyList>spec Content</dynamicDataKeyList>
+    <dynamicDataKeyList>flag</dynamicDataKeyList>
+    <GlobalDataRepo name="ss" path="Workspace/GlobalDatas/ss.xml"/>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Open the URL" errorMessage="" name="OPEN URL" type="1">
+            <InputDataList key="http://samples.galenframework.com/tutorial1/tutorial1.html" label="URL" type="1" value="http://samples.galenframework.com/tutorial1/tutorial1.html">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.OpenURL</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Test the Web-browser" errorMessage="{{Visual_Test_Report_03122019_072429.zip}}" name="Visual Testing" type="1">
+            <InputDataList key="C:\Users\JaiswalS2\Downloads\Visual_Testing\Spec_homePage\sample.gspec" label="Spec File Path" type="1" value="C:\Users\JaiswalS2\Downloads\Visual_Testing\Spec_homePage\sample.gspec">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="C:\Users\JaiswalS2\Downloads\Visual_Testing\Reports" label="Report FilePath" type="1" value="C:\Users\JaiswalS2\Downloads\Visual_Testing\Reports">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.Visual_Testing</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Pause or wait for given period of time(in ms) on current screen." errorMessage="" name="Wait" type="1">
+            <InputDataList key="2000" label="Wait Period in mili second" type="1" value="2000">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.Wait</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <testCaseType>SIMPLE_TYPE</testCaseType>
+    <testcaseCreatedBy>sh</testcaseCreatedBy>
+</SeleniumXTestcase>
