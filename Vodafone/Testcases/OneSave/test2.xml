@@ -1,1 +1,67 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SeleniumXTestcase>
+    <DataSetRepo name="rest" path="Workspace/Vodafone/DataSets/test/rest.xml"/>
+    <dynamicDataKeyList>spec Content</dynamicDataKeyList>
+    <dynamicDataKeyList>flag</dynamicDataKeyList>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Open the URL" errorMessage="" name="OPEN URL" type="1">
+            <InputDataList key="https://www.flipkart.com/apple-iphone-x-space-gray-256-gb/p/itmf3syz84rypvwu?pid=MOBEXRGVCYGG2KXA&amp;lid=LSTMOBEXRGVCYGG2KXANMBZHB&amp;marketplace=FLIPKART&amp;sattr[]=color&amp;sattr[]=storage&amp;st=color" label="URL" type="1" value="https://www.flipkart.com/apple-iphone-x-space-gray-256-gb/p/itmf3syz84rypvwu?pid=MOBEXRGVCYGG2KXA&amp;lid=LSTMOBEXRGVCYGG2KXANMBZHB&amp;marketplace=FLIPKART&amp;sattr[]=color&amp;sattr[]=storage&amp;st=color">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.OpenURL</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Read Spec file" errorMessage="Not able to read file from windows" name="READ_FILE_WINDOWS" type="1">
+            <InputDataList key="D:\Visual_Testing\Spec_homePage\home-page.gspec" label="Input File Path" type="1" value="D:\Visual_Testing\Spec_homePage\home-page.gspec">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <outputDataList key="spec Content" label="Response Message" type="4" value="@objects&#xA;&#x9;84780_div&#x9;xpath&#x9;//DIV[text()='?84,780']&#xA;&#x9;element_img&#x9;xpath&#x9;//*[@src='https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90']&#xA;&#x9;84780_div_1&#x9;xpath&#x9;//DIV[text()='?84,780']&#xA;&#x9;84780_div_2&#x9;xpath&#x9;//DIV[text()='?84,780']&#xA;&#x9;tvsapplian_span&#x9;xpath&#x9;id(&quot;container&quot;)/DIV[1]/DIV[2]/DIV[1]/UL[1]/LI[2]/SPAN[1]&#xA;= Rules =">
+                <notMandatory>false</notMandatory>
+            </outputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.soa.ReadFileInWindowsStep</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Print spec file for validation" errorMessage="{{}}@objects&#xA;&#x9;84780_div&#x9;xpath&#x9;//DIV[text()='?84,780']&#xA;&#x9;element_img&#x9;xpath&#x9;//*[@src='https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90']&#xA;&#x9;84780_div_1&#x9;xpath&#x9;//DIV[text()='?84,780']&#xA;&#x9;84780_div_2&#x9;xpath&#x9;//DIV[text()='?84,780']&#xA;&#x9;tvsapplian_span&#x9;xpath&#x9;id(&quot;container&quot;)/DIV[1]/DIV[2]/DIV[1]/UL[1]/LI[2]/SPAN[1]&#xA;= Rules =" name="LOG_MESSAGE" type="1">
+            <InputDataList key="spec Content" label="PROPERTY VALUE" type="4" value="@objects&#xA;&#x9;84780_div&#x9;xpath&#x9;//DIV[text()='?84,780']&#xA;&#x9;element_img&#x9;xpath&#x9;//*[@src='https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90']&#xA;&#x9;84780_div_1&#x9;xpath&#x9;//DIV[text()='?84,780']&#xA;&#x9;84780_div_2&#x9;xpath&#x9;//DIV[text()='?84,780']&#xA;&#x9;tvsapplian_span&#x9;xpath&#x9;id(&quot;container&quot;)/DIV[1]/DIV[2]/DIV[1]/UL[1]/LI[2]/SPAN[1]&#xA;= Rules =">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <outputDataList key="flag" label="RESULT" type="4" value="Done">
+                <notMandatory>false</notMandatory>
+            </outputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.Filters.LogMessage</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Test the Web-browser" errorMessage="{{Visual_Test_Report_08032019_122454//report.html}}" name="Visual Testing" type="1">
+            <InputDataList key="Path" label="Spec File Path" type="2" value="D:\Visual_Testing\Spec_homePage\home-page.gspec">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <InputDataList key="D:\Visual_Testing\Reports" label="Report FilePath" type="1" value="D:\Visual_Testing\Reports">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.Galen_Testing</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <SeleniumXTeststep breakPoint="false" continueOnFail="true" skipStep="false" takeScreenShot="false" type="0">
+        <compareAction></compareAction>
+        <SeleniumXKeyword description="Pause or wait for given period of time(in ms) on current screen." errorMessage="" name="Wait" type="1">
+            <InputDataList key="2000" label="Wait Period in mili second" type="1" value="2000">
+                <notMandatory>false</notMandatory>
+            </InputDataList>
+            <relevanceFactor>0.0</relevanceFactor>
+            <xClass>in.tcs.seleniumx.keywords.Wait</xClass>
+        </SeleniumXKeyword>
+    </SeleniumXTeststep>
+    <testCaseType>SIMPLE_TYPE</testCaseType>
+    <testcaseCreatedBy>sh</testcaseCreatedBy>
+</SeleniumXTestcase>
